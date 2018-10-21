@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/music_01"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Music_01" />
+        <item
+            android:id="@+id/music_02"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Music_02" />
+        <item
+            android:id="@+id/music_03"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Music_03" />
+        <item
+            android:id="@+id/music_04"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Music_04" />
+        <item
+            android:id="@+id/music_05"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Music_05" />
+        <item
+            android:id="@+id/music_06"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Music_06" />
+        <item
+            android:id="@+id/music_07"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Music_07" />
+        <item
+            android:id="@+id/music_08"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Music_08" />
+    </group>
+
+    <item android:title="QUICK LINK">
+        <menu>
+            <item
+                android:id="@+id/nav_local"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Local Music" />
+            <item
+                android:id="@+id/nav_collections"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Collections" />
+            <item
+                android:id="@+id/nav_current"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Currently Played" />
+            <item
+                android:id="@+id/nav_recognize"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Recognize Music" />
+            <item
+                android:id="@+id/nav_main"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Back to Mainpage" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">Musical</string>
+    <string name="song_name">アストロノーツ (宇航员)</string>
+    <string name="song_singer">majiko (まじ娘)</string>
+    <string name="song_album">mirror【通常盤】</string>
+    <string name="song_language">日语</string>
+    <string name="song_style">Pop</string>
+    <string name="song_company">Pony Canyon</string>
+    <string name="song_publish_date">2015&#8211;11&#8211;18</string>
+    <string name="btn_local_music">Local</string>
+    <string name="btn_collections">Collections</string>
+    <string name="btn_current">Current</string>
+    <string name="btn_recognize">Recognize</string>
+    <string name="label_now_playing">Now Playing :</string>
+    <string name="activity_name_now_playing">NOW PLAYING</string>
+    <string name="activity_name_local_music">LOCAL MUSIC</string>
+    <string name="activity_name_collections">COLLECTIONS</string>
+    <string name="activity_name_current">CURRENTLY PLAYED</string>
+    <string name="activity_name_recognize">RECOGNIZE MUSIC</string>
+    <string name="lyrics">
+        アストロノーツ (宇航员) - majiko (まじ娘)\n
+        词：椎名もた\n
+        曲：椎名もた\n
+        もしも僕が今晩のカレーを\n
+        残さず食べたなら良かったのかな\n
+        君は酷く顔をしかめて\n
+        もうたべなくっていいよって\n
+        言ったんだっけな\n
+        もしも僕が虐められたって\n
+        殴り返せるような人だったらな\n
+        君も今より少しくらいは\n
+        笑うようになるかもしれないから\n
+        もしも僕がひとりきりでさ\n
+        君に迷惑もかけずにいられたなら\n
+        でもさそれじゃさ
+    </string>
+    <string name="title_activity_playing_list">PlayingListActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Music Playlist</string>
+    <string name="image_desc">bala bala bala</string>
+    <string name="app_settings">Settings</string>
 </resources>

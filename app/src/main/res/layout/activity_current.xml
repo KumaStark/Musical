@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/current_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".CurrentActivity">
+
+    <View
+        android:id="@+id/nav_divider_3"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="100dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn_nav_local_music_3"
+        style="@style/ActivityNavButtons"
+        android:contentDescription="@string/image_desc"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_nav_collection_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nav_divider_3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_local_music" />
+
+    <ImageView
+        android:id="@+id/btn_nav_collection_3"
+        style="@style/ActivityNavButtons"
+        android:contentDescription="@string/image_desc"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_nav_current_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_nav_local_music_3"
+        app:layout_constraintTop_toBottomOf="@+id/nav_divider_3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_collection" />
+
+    <ImageView
+        android:id="@+id/btn_nav_current_3"
+        style="@style/ActivityNavButtons"
+        android:contentDescription="@string/image_desc"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_nav_recognize_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_nav_collection_3"
+        app:layout_constraintTop_toBottomOf="@+id/nav_divider_3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_current" />
+
+    <ImageView
+        android:id="@+id/btn_nav_recognize_3"
+        style="@style/ActivityNavButtons"
+        android:contentDescription="@string/image_desc"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_nav_current_3"
+        app:layout_constraintTop_toBottomOf="@+id/nav_divider_3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_recognize" />
+
+    <TextView
+        android:id="@+id/desc_local_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text='显示近期播放过的音乐列表\n排序按照播放时间的顺序由近及远\n点击列表项目即可跳转到"NOW PLAYING"页面进行播放'
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/dot_local_3"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/image_desc"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_nav_local_music_3"
+        app:layout_constraintStart_toStartOf="@+id/btn_nav_local_music_3"
+        app:srcCompat="@drawable/ic_dot" />
+
+    <ImageView
+        android:id="@+id/dot_collection_3"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/image_desc"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_nav_collection_3"
+        app:layout_constraintStart_toStartOf="@+id/btn_nav_collection_3"
+        app:srcCompat="@drawable/ic_dot" />
+
+    <ImageView
+        android:id="@+id/dot_current_3"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/image_desc"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_nav_current_3"
+        app:layout_constraintStart_toStartOf="@+id/btn_nav_current_3"
+        app:srcCompat="@drawable/ic_dot" />
+
+    <ImageView
+        android:id="@+id/dot_recognize_3"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/image_desc"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_nav_recognize_3"
+        app:layout_constraintStart_toStartOf="@+id/btn_nav_recognize_3"
+        app:srcCompat="@drawable/ic_dot" />
+</android.support.constraint.ConstraintLayout>

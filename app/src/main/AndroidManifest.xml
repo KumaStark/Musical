@@ -16,6 +16,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LocalMusicActivity"
+            android:label="@string/activity_name_local_music" />
+        <activity
+            android:name=".CollectionsActivity"
+            android:label="@string/activity_name_collections" />
+        <activity
+            android:name=".CurrentActivity"
+            android:label="@string/activity_name_current" />
+        <activity
+            android:name=".RecognizeActivity"
+            android:label="@string/activity_name_recognize" />
+        <activity
+            android:name=".PlayingListActivity"
+            android:label="@string/activity_name_now_playing"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="kuma.project.udacity.musical.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/app_settings" />
     </application>
 
 </manifest>
